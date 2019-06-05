@@ -1,0 +1,23 @@
+
+public class Population {
+
+	private Chromosome[] chromosome;
+	public Population(int length){
+		
+		chromosome = new Chromosome[length];
+	}
+	
+	public Population initializePopulation(){
+		
+		for( int i = 0 ; i < chromosome.length ; i++){
+			chromosome[i] = new Chromosome(GeneticAlgorithm.TARGET_CHROMOSOME.length).initializeChromosome();
+		}
+		
+		shortChromosomesByFitness();
+		return this;
+	}
+
+	private void shortChromosomesByFitness() {
+		
+	}
+}

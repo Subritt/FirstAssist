@@ -1,0 +1,9 @@
+
+public class Population {
+
+	private Chromosome[] chromosome;
+	public Population(int length){
+		
+		chromosome = new Chromosome[length];
+	}
+}

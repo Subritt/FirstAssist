@@ -1,0 +1,18 @@
+package com.wedemo.service;
+
+import java.sql.Connection;
+
+import com.webdemo.models.User;
+
+public class UserDaolmpl {
+	
+	Connection con = null ;
+	
+	public void signup(User u){
+		
+		con = DB.getDbcon();
+		
+		String sql = "insert into user(fname, lname, username, password) values(?, ?, ?, ?)" ;
+	}
+
+}

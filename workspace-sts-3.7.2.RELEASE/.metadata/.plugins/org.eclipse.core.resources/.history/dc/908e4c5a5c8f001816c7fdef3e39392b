@@ -1,0 +1,22 @@
+
+public class GeneticAlgorithm {
+
+	public static final int POPULATION_SIZE = 9;
+	public static final int[] TARGET_CHROMOSOME = { 1, 1, 0, 1, 0, 0, 1, 1, 1, 0 };
+	public static final int NUM_OF_ELITE_CHROMOSOMES = 1;
+
+	private Population crossoverPopulation(Population population) {
+		
+		Population crossoverPopulation = new Population(population.getChromosome().length);
+		
+		return crossoverPopulation;
+	}
+
+	private Population mutatePopulation(Population population) {
+		return population;
+	}
+
+	public Population evolve(Population population) {
+		return mutatePopulation(crossoverPopulation(population));
+	}
+}

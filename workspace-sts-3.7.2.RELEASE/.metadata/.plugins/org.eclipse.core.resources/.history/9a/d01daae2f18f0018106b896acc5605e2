@@ -1,0 +1,15 @@
+package com.test.hillClimbingAlgo;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class Route {
+
+	private ArrayList<City> cities = new ArrayList<City>();
+
+	@Override
+	public String toString() {
+		return Arrays.toString(cities.toArray());
+	}
+
+}

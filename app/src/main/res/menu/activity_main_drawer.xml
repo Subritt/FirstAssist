@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="Chat" />
+        <item
+            android:id="@+id/nav_notify"
+            android:icon="@drawable/ic_notifications_black_24dp"
+            android:title="Notify" />
+        <item
+            android:id="@+id/nav_emergency_number"
+            android:icon="@drawable/ic_call_black_24dp"
+            android:title="Emergency Number" />
+        <item
+            android:id="@+id/nav_nearest_hospital"
+            android:icon="@drawable/ic_place_black_24dp"
+            android:title="Nearest Hospital" />
+    </group>
+
+
+
+</menu>

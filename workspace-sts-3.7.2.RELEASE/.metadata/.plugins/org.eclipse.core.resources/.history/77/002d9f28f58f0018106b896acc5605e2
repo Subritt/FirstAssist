@@ -1,0 +1,15 @@
+package com.test.hillClimbingAlgo;
+
+public class HillClimbing {
+
+	public Route findShortestRoute(Route currentRoute) {
+		return null;
+	}
+
+	public Route obtainAdjacentRoute(Route route) {
+		int x1 = 0, x2 = 0;
+
+		return null;
+	}
+
+}

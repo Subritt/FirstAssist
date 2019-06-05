@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;SignUpForm.java&apos; to &apos;sprinproject/src/main/java/com.bway.springproject.controllers&apos;&#x0D;&#x0A;- Original project: &apos;sprinproject&apos;&#x0D;&#x0A;- Destination element: &apos;sprinproject/src/main/java/com.bway.springproject.controllers&apos;&#x0D;&#x0A;- Original element: &apos;com.bway.springproject.SignUpForm.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src\/main\/java&lt;com.bway.springproject.controllers" element1="/src\/main\/java&lt;com.bway.springproject{SignUpForm.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1527592429730" units="1" version="1.0"/>
+</session>

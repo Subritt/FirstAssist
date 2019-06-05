@@ -1,0 +1,9 @@
+package com.test.hillClimbingAlgo;
+
+public class City {
+	
+	private double latitude;
+	private double longitude;
+	private String name;
+
+}

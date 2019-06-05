@@ -1,0 +1,12 @@
+package com.wedemo.service;
+
+import java.sql.Connection;
+
+public class DB {
+	
+	public static Connection getDbcon(){
+		
+		return null ;
+	}
+
+}

@@ -1,0 +1,17 @@
+
+public class Driver {
+
+	public static void main(String[] args){
+		
+		Population population = new Population(GeneticAlgorithm.POPULATION_SIZE).initializePopulation();
+	}
+	
+	public static void printPopulation(Population population, String heading){
+		System.out.println(heading);
+		System.out.println("-------------------------------------------------");
+		
+		for( int i = 0 ; i < population.getChromosome().length ; i++){
+			
+		}
+	}
+}

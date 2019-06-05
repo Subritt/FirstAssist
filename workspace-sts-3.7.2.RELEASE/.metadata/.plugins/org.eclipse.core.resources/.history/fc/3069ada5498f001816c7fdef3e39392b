@@ -1,0 +1,9 @@
+
+public class Chromosome {
+
+	private int[] genes;
+	
+	public Chromosome(int length){
+		genes = new int[length];
+	}
+}

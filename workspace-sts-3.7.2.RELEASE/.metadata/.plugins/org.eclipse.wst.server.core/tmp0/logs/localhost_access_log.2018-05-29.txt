@@ -1,0 +1,11 @@
+127.0.0.1 - - [29/May/2018:17:49:22 +0545] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [29/May/2018:17:49:23 +0545] "GET /springproject/ HTTP/1.1" 200 381
+0:0:0:0:0:0:0:1 - - [29/May/2018:17:49:31 +0545] "GET /springproject/userreg HTTP/1.1" 200 719
+0:0:0:0:0:0:0:1 - - [29/May/2018:17:49:49 +0545] "GET /springproject/userreg?fname=ram&lname=ram&username=ram&password=ram HTTP/1.1" 200 719
+0:0:0:0:0:0:0:1 - - [29/May/2018:17:51:02 +0545] "GET /springproject/userreg?fname=ram&lname=ram&username=ram&password=ram HTTP/1.1" 200 719
+127.0.0.1 - - [29/May/2018:17:52:29 +0545] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [29/May/2018:17:52:30 +0545] "GET /springproject/ HTTP/1.1" 200 381
+0:0:0:0:0:0:0:1 - - [29/May/2018:17:52:33 +0545] "GET /springproject/userreg HTTP/1.1" 200 720
+0:0:0:0:0:0:0:1 - - [29/May/2018:17:52:43 +0545] "POST /springproject/userreg HTTP/1.1" 200 554
+0:0:0:0:0:0:0:1 - - [29/May/2018:17:52:54 +0545] "POST /springproject/userlogin HTTP/1.1" 200 118
+0:0:0:0:0:0:0:1 - - [29/May/2018:17:53:03 +0545] "POST /springproject/userlogin HTTP/1.1" 200 573

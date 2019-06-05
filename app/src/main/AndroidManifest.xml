@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.subritt.firstassist">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICEs" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_firstassist_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        /*---First Assist Tips----*/
+        <activity
+            android:name=".ArtificialRespiration"
+            android:colorMode="hdr"
+            android:label="ARTIFICIAL RESPIRATION" />
+        <activity
+            android:name=".Shock"
+            android:label="SHOCK" />
+        <activity
+            android:name=".HeartAttack"
+            android:label="HEART ATTACK" />
+        <activity
+            android:name=".BleadingEar"
+            android:label="BLEADING EAR" />
+        <activity
+            android:name=".DogBite"
+            android:label="DOG BITE" />
+        <activity
+            android:name=".Unconciousness"
+            android:label="UNCONCIOUSNESS" />
+        <activity
+            android:name=".ForeignBodyInEar"
+            android:label="FOREIGN BODY IN EAR" />
+        <activity android:name=".SnakeBite" />
+        <activity
+            android:name=".Chocking"
+            android:label="CHOCKING" />
+        <activity
+            android:name=".ElectricShock"
+            android:label="ELECTRIC SHOCKs" />
+        /*--------------------------------------*/
+
+        /*----Fragments----*/
+        <activity
+            android:name=".EmergencyNumber"
+            android:label="EMERGENCY NUMBER" />
+        <activity
+            android:name=".UserLogin"
+            android:label="USER LOGIN" />
+        <activity
+            android:name=".Registration"
+            android:label="REGISTRATION" />
+        <activity
+            android:name=".Messenger"
+            android:label="Messenger" />
+        <activity
+            android:name=".NearestHospital"
+            android:label="@string/title_activity_nearest_hospital" />
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".PasswordActivity"
+            android:label="RESET PASSWORD" />
+        <activity
+            android:name=".NotificationActivity"
+            android:label="NOTIFICATION" />
+        <activity
+            android:name=".ChatRoomActivity"
+            android:label="CHAT ROOM" />
+        <activity
+            android:name=".ChatRoom"
+            android:label="MESSANGING " />
+        <activity android:name=".ProfileActivity"></activity>
+    </application>
+
+</manifest>

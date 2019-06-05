@@ -1,0 +1,9 @@
+package com.test.hillClimbingAlgo;
+
+public class HillClimbing {
+	
+	public Route findShortestRoute(Route currentRoute){
+		return null;
+	}
+
+}
